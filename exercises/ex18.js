@@ -4,3 +4,17 @@ Write a named function expression that stores the function in a variable called 
 cry();
 Returns: boohoo!
 */
+
+ const expressions = function cry(number) {
+    let message = "";
+    for (let i = 1; i <= number; i++) {
+        message += " boohoo! ";
+    }
+    return message;
+
+    
+};
+
+console.log(expressions(3))
+ 
+
