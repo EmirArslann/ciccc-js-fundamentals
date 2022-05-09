@@ -9,3 +9,16 @@ var mercenary = "Jayne";
 var mechanic = "Kaylee";
 Then, print the crew array to the console.
 */
+
+let crew = []
+
+var captain = "Mal";
+var second = "Zoe";
+var pilot = "Wash";
+var companion = "Inara";
+var mercenary = "Jayne";
+var mechanic = "Kaylee";
+
+crew.push(captain, second, pilot, companion, mercenary, mechanic)
+
+console.log(crew)  
